@@ -4,22 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Animal Explorer</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="animal3.css" />
 </head>
 <body>
-  <header>
-    <div class="logo">Animal Explorer</div>
-    <nav>
-      <a href="#birds">Birds</a>
-      <a href="#mammals">Mammals</a>
-      <a href="#reptiles">Reptiles</a>
-      <a href="#fish">Fish</a>
-    </nav>
-    <form action="animal.html" method="GET" class="search-bar">
-      <input type="text" name="name" placeholder="Search for animals..." />
-      <button type="submit">Search</button>
-    </form>
-  </header>
+<header>
+  <div class="logo">WILDLIFE</div>
+  <nav>
+    <a href="index.html" class="nav-link">Home</a>
+    
+    <div class="dropdown">
+      <button class="dropbtn">Categories</button>
+      <div class="dropdown-content">
+        <a href="#birds">Birds</a>
+        <a href="#mammals">Mammals</a>
+        <a href="#reptiles">Reptiles</a>
+        <a href="#fish">Fish</a>
+      </div>
+    </div>
+    
+    <a href="gallery.html" class="nav-link">Gallery</a>
+    
+    <div class="dropdown">
+      <button class="dropbtn">DEV</button>
+      <div class="dropdown-content">
+        <a href="about.html">About Us</a>
+        <a href="team.html">Our Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+  <form action="animal.html" method="GET" class="search-bar">
+    <input type="text" name="name" placeholder="Search for animals..." />
+    <button type="submit">Search</button>
+  </form>
+</header>
 
   <section class="hero">
     <h1>Discover, Appreciate, & Understand the Animal World!</h1>
