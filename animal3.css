@@ -313,7 +313,473 @@ nav {
 .card[href*="clownfish"] {
   background: url('https://images.unsplash.com/photo-1535591273668-578e31182c4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover;
 }
+.card[href*="31599129"] { /* Hồng hạc */
+  background: url('https://images.pexels.com/photos/31599129/pexels-photo-31599129.jpeg') center/cover;
+}
 
+.card[href*="31453651"] { /* Linh dương */
+  background: url('https://images.pexels.com/photos/31453651/pexels-photo-31453651.jpeg') center/cover;
+}
+
+.card[href*="12762129"] { /* Tatu */
+  background: url('https://images.pexels.com/photos/12762129/pexels-photo-12762129.jpeg') center/cover;
+}
+
+.card[href*="10830792"] { /* Lửng */
+  background: url('https://images.pexels.com/photos/10830792/pexels-photo-10830792.jpeg') center/cover;
+}
+
+.card[href*="14655949"] { /* Gấu */
+  background: url('https://images.pexels.com/photos/14655949/pexels-photo-14655949.jpeg') center/cover;
+}
+
+.card[href*="26655206"] { /* Lợn rừng */
+  background: url('https://images.pexels.com/photos/26655206/pexels-photo-26655206.jpeg') center/cover;
+}
+
+.card[href*="29713367"] { /* Mèo */
+  background: url('https://images.pexels.com/photos/29713367/pexels-photo-29713367.jpeg') center/cover;
+}
+
+.card[href*="23886628"] { /* Báo gêpa */
+  background: url('https://images.pexels.com/photos/23886628/pexels-photo-23886628.jpeg') center/cover;
+}
+
+.card[href*="31429638"] { /* Rắn hổ mang */
+  background: url('https://images.pexels.com/photos/31429638/pexels-photo-31429638.jpeg') center/cover;
+}
+
+.card[href*="15539380"] { /* Cá mập */
+  background: url('https://images.pexels.com/photos/15539380/pexels-photo-15539380.jpeg') center/cover;
+}
+
+.card[href*="29602589"] { /* Hải cẩu */
+  background: url('https://images.pexels.com/photos/29602589/pexels-photo-29602589.jpeg') center/cover;
+}
+
+/* Thêm các rules cho các ảnh từ link encrypted-tbn0 */
+.card[href*="ANd9GcSBCYNXKeOfHF1pSS01"] { /* Cá sấu */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCYNXKeOfHF1pSS01-06uTu-FKmJO8mv4xw&s') center/cover;
+}
+
+.card[href*="ANd9GcQZHIK-fXBy3fj-EowPK0WSn_rG_FJFtcZxYA"] { /* Khỉ đầu chó */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZHIK-fXBy3fj-EowPK0WSn_rG_FJFtcZxYA&s') center/cover;
+}
+
+.card[href*="ANd9GcQCMlqzvODS7UsMQsJ4tMzODolRfBGrQGKF4Q"] { /* Lạc đà */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCMlqzvODS7UsMQsJ4tMzODolRfBGrQGKF4Q&s') center/cover;
+}
+/* Thêm các ảnh còn thiếu từ Pexels */
+.card[href*="27046777"] { /* Bướm */
+  background: url('https://images.pexels.com/photos/27046777/pexels-photo-27046777.jpeg') center/cover;
+}
+
+.card[href*="144200"] { /* Châu chấu */
+  background: url('https://images.pexels.com/photos/144200/pexels-photo-144200.jpeg') center/cover;
+}
+
+.card[href*="31342946"] { /* Chuồn chuồn */
+  background: url('https://images.pexels.com/photos/31342946/pexels-photo-31342946.jpeg') center/cover;
+}
+
+.card[href*="12792222"] { /* Nai */
+  background: url('https://images.pexels.com/photos/12792222/pexels-photo-12792222.jpeg') center/cover;
+}
+
+.card[href*="13960994"] { /* Possum */
+  background: url('https://images.pexels.com/photos/13960994/pexels-photo-13960994.jpeg') center/cover;
+}
+
+/* Thêm các ảnh từ encrypted-tbn0 */
+.card[href*="ANd9GcT3q-QORzjcUTUgL0fmvGGyyqqHoec0nJ3MSw"] { /* Bọ cạp */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3q-QORzjcUTUgL0fmvGGyyqqHoec0nJ3MSw&s') center/cover;
+}
+
+.card[href*="ANd9GcSVTrFtFMKOho1Z5Jbw2vLZQmyqpnrGkCNWfw"] { /* Thú mỏ vịt */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTrFtFMKOho1Z5Jbw2vLZQmyqpnrGkCNWfw&s') center/cover;
+}
+
+.card[href*="ANd9GcQf_XMIXF2f3kw7NW9PwopsGU7yTK5Z0EgeBA"] { /* Con nhím */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf_XMIXF2f3kw7NW9PwopsGU7yTK5Z0EgeBA&s') center/cover;
+}
+
+/* Thêm các ảnh đặc biệt */
+.card[href*="15707992"] { /* Sói đồng cỏ */
+  background: url('https://images.pexels.com/photos/15707992/pexels-photo-15707992.jpeg') center/cover;
+}
+
+.card[href*="2213575"] { /* Tinh tinh */
+  background: url('https://images.pexels.com/photos/2213575/pexels-photo-2213575.jpeg') center/cover;
+}
+
+.card[href*="301448"] { /* Chuột */
+  background: url('https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg') center/cover;
+}
+
+.card[href*="2189599"] { /* Chuột (rat) */
+  background: url('https://images.pexels.com/photos/2189599/pexels-photo-2189599.jpeg') center/cover;
+}
+.card[href*="2587639"] { /* Dơi */
+  background: url('https://images.pexels.com/photos/2587639/pexels-photo-2587639.jpeg') center/cover;
+}
+
+.card[href*="3640872"] { /* Bò rừng */
+  background: url('https://images.pexels.com/photos/3640872/pexels-photo-3640872.jpeg') center/cover;
+}
+
+.card[href*="53001"] { /* Báo sư tử */
+  background: url('https://images.pexels.com/photos/53001/cougar-mountain-lion-puma-concolor-big-cat-53001.jpeg') center/cover;
+}
+
+.card[href*="76966"] { /* Cua */
+  background: url('https://images.pexels.com/photos/76966/crab-red-klippenkrabbe-grapsus-grapsus-shellfish-76966.jpeg') center/cover;
+}
+
+/* === Động vật có ảnh từ Google Images === */
+.card[href*="ANd9GcSBCYNXKeOfHF1pSS01"] { /* Cá sấu */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCYNXKeOfHF1pSS01-06uTu-FKmJO8mv4xw&s') center/cover;
+}
+
+.card[href*="ANd9GcSRqft0O0nneBTZQEis"] { /* Ong */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqft0O0nneBTZQEisjskDQf_LlEDEmj6SiQ&s') center/cover;
+}
+
+.card[href*="ANd9GcQCMlqzvODS7UsMQsJ4"] { /* Lạc đà */
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCMlqzvODS7UsMQsJ4tMzODolRfBGrQGKF4Q&s') center/cover;
+}
+
+/* === Động vật đặc biệt === */
+.card[href*="28753034"] { /* Gấu trúc */
+  background: url('https://images.pexels.com/photos/28753034/pexels-photo-28753034.jpeg') center/cover;
+}
+
+.card[href*="29602589"] { /* Hải cẩu */
+  background: url('https://images.pexels.com/photos/29602589/pexels-photo-29602589.jpeg') center/cover;
+}
+
+.card[href*="6628902"] { /* Đà điểu */
+  background: url('https://images.pexels.com/photos/6628902/pexels-photo-6628902.jpeg') center/cover;
+}
+
+/* === Các rules còn lại === */
+.card[href*="2213575"] { /* Tinh tinh */
+  background: url('https://images.pexels.com/photos/2213575/pexels-photo-2213575.jpeg') center/cover;
+}
+
+.card[href*="301448"] { /* Chuột */
+  background: url('https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg') center/cover;
+}
+
+
+.card[href*="39504"] { /* Hươu cao cổ */
+  background: url('https://images.pexels.com/photos/39504/giraffe-animal-funny-facial-expression-39504.jpeg') center/cover;
+}
+
+.card[href*="105823"] { /* Koala */
+  background: url('https://images.pexels.com/photos/105823/pexels-photo-105823.jpeg') center/cover;
+}
+
+.card[href*="631292"] { /* Tê giác */
+  background: url('https://images.pexels.com/photos/631292/pexels-photo-631292.jpeg') center/cover;
+}
+/* === SƯ TỬ === */
+.card[href*="19930586"] {
+  background: url('https://images.pexels.com/photos/19930586/pexels-photo-19930586.jpeg') center/cover;
+}
+
+/* === VOI === */
+.card[href*="982021"] {
+  background: url('https://images.pexels.com/photos/982021/pexels-photo-982021.jpeg') center/cover;
+}
+
+/* === HẢI LY === */
+.card[href*="31453652"] {
+  background: url('https://images.pexels.com/photos/31453652/pexels-photo-31453652.jpeg') center/cover;
+}
+
+/* === TUẦN LỘC === */
+.card[href*="16752485"] {
+  background: url('https://images.pexels.com/photos/16752485/pexels-photo-16752485.jpeg') center/cover;
+}
+
+/* === CHUỘT LANG === */
+.card[href*="31457826"] {
+  background: url('https://images.pexels.com/photos/31457826/pexels-photo-31457826.jpeg') center/cover;
+}
+
+/* === TRÂU === */
+.card[href*="ANd9GcRiKdwbebUwOKXzW6SHLqXgs5GFiIW_4Vu4DQ"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiKdwbebUwOKXzW6SHLqXgs5GFiIW_4Vu4DQ&s') center/cover;
+}
+/* === BÒ === */
+.card[href*="5490700"] {
+  background: url('https://images.pexels.com/photos/5490700/pexels-photo-5490700.jpeg') center/cover;
+}
+
+/* === HƯƠU === */
+.card[href*="25324406"] {
+  background: url('https://images.pexels.com/photos/25324406/pexels-photo-25324406.jpeg') center/cover;
+}
+
+/* === CHÓ === */
+.card[href*="8409852"] {
+  background: url('https://images.pexels.com/photos/8409852/pexels-photo-8409852.jpeg') center/cover;
+}
+
+/* === CÁ HEO === */
+.card[href*="7359034"] {
+  background: url('https://images.pexels.com/photos/7359034/pexels-photo-7359034.jpeg') center/cover;
+}
+
+/* === LỪA === */
+.card[href*="31564768"] {
+  background: url('https://images.pexels.com/photos/31564768/pexels-photo-31564768.jpeg') center/cover;
+}
+
+/* === KHỈ ĐỘT === */
+.card[href*="27502084"] {
+  background: url('https://images.pexels.com/photos/27502084/pexels-photo-27502084.jpeg') center/cover;
+}
+
+/* === CHUỘT === */
+.card[href*="301448"] {
+  background: url('https://images.pexels.com/photos/301448/pexels-photo-301448.jpeg') center/cover;
+}
+
+/* === NHÍM === */
+.card[href*="27444006"] {
+  background: url('https://images.pexels.com/photos/27444006/pexels-photo-27444006.jpeg') center/cover;
+}
+
+/* === THỎ === */
+.card[href*="247373"] {
+  background: url('https://images.pexels.com/photos/247373/pexels-photo-247373.jpeg') center/cover;
+}
+
+/* === HÀ MÃ === */
+.card[href*="19702971"] {
+  background: url('https://images.pexels.com/photos/19702971/pexels-photo-19702971.jpeg') center/cover;
+}
+/* === CÁC LOÀI CHIM === */
+/* Đại bàng */
+.card[href*="ANd9GcSS3ZjKZbcT_8B8Jl3idYs4hOt73IK-DMbH3g"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS3ZjKZbcT_8B8Jl3idYs4hOt73IK-DMbH3g&s') center/cover;
+}
+
+/* Gà */
+.card[href*="ANd9GcRphOVQ7a6CwWhuy0bPjfNSbP7K22nnU33N3Q"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRphOVQ7a6CwWhuy0bPjfNSbP7K22nnU33N3Q&s') center/cover;
+}
+
+/* Bồ câu */
+.card[href*="31538711"] {
+  background: url('https://images.pexels.com/photos/31538711/pexels-photo-31538711.jpeg') center/cover;
+}
+
+/* Vịt */
+.card[href*="31581751"] {
+  background: url('https://images.pexels.com/photos/31581751/pexels-photo-31581751.jpeg') center/cover;
+}
+
+/* Chim ưng */
+.card[href*="31536788"] {
+  background: url('https://images.pexels.com/photos/31536788/pexels-photo-31536788.jpeg') center/cover;
+}
+
+/* Chim sẻ */
+.card[href*="31568297"] {
+  background: url('https://images.pexels.com/photos/31568297/pexels-photo-31568297.jpeg') center/cover;
+}
+
+/* Chim ruồi */
+.card[href*="31587261"] {
+  background: url('https://images.pexels.com/photos/31587261/pexels-photo-31587261.jpeg') center/cover;
+}
+
+/* Ngỗng */
+.card[href*="31576309"] {
+  background: url('https://images.pexels.com/photos/31576309/pexels-photo-31576309.jpeg') center/cover;
+}
+
+/* Vẹt đuôi dài */
+.card[href*="1661179"] {
+  background: url('https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg') center/cover;
+}
+
+/* Chim chào mào */
+.card[href*="31556944"] {
+  background: url('https://images.pexels.com/photos/31556944/pexels-photo-31556944.jpeg') center/cover;
+}
+
+/* Cú */
+.card[href*="31588622"] {
+  background: url('https://images.pexels.com/photos/31588622/pexels-photo-31588622.jpeg') center/cover;
+}
+
+/* Vẹt */
+.card[href*="31568338"] {
+  background: url('https://images.pexels.com/photos/31568338/pexels-photo-31568338.jpeg') center/cover;
+}
+
+/* Con công */
+.card[href*="23696878"] {
+  background: url('https://images.pexels.com/photos/23696878/pexels-photo-23696878.jpeg') center/cover;
+}
+
+/* Con vẹt mào */
+.card[href*="ANd9GcS7mkkI5HS3n2W4YHCiajqPOjRYjxkiSTzypQ"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7mkkI5HS3n2W4YHCiajqPOjRYjxkiSTzypQ&s') center/cover;
+}
+
+/* Chim cánh cụt */
+.card[href*="2078474"] {
+  background: url('https://images.pexels.com/photos/2078474/pexels-photo-2078474.jpeg') center/cover;
+}
+/* === ĐỘNG VẬT MỚI === */
+/* Cáo */
+.card[href*="27116545"] {
+  background: url('https://images.pexels.com/photos/27116545/pexels-photo-27116545.jpeg') center/cover;
+}
+
+/* Dê */
+.card[href*="ANd9GcQg9Oejm-9zNSZ_Mg_cCz59fEazaAbs2P83QQ"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg9Oejm-9zNSZ_Mg_cCz59fEazaAbs2P83QQ&s') center/cover;
+}
+
+/* Chuột đồng */
+.card[href*="4520484"] {
+  background: url('https://images.pexels.com/photos/4520484/pexels-photo-4520484.jpeg') center/cover;
+}
+
+/* Ngựa */
+.card[href*="ANd9GcRkZtD1R3hHgRJlDAEY3HzEVGBZCKbB6wlTwg"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkZtD1R3hHgRJlDAEY3HzEVGBZCKbB6wlTwg&s') center/cover;
+}
+
+/* Linh cẩu */
+.card[href*="18204377"] {
+  background: url('https://images.pexels.com/photos/18204377/pexels-photo-18204377.jpeg') center/cover;
+}
+
+/* Chó rừng */
+.card[href*="10147183"] {
+  background: url('https://images.pexels.com/photos/10147183/pexels-photo-10147183.jpeg') center/cover;
+}
+
+/* Báo đốm */
+.card[href*="26605601"] {
+  background: url('https://images.pexels.com/photos/26605601/pexels-photo-26605601.jpeg') center/cover;
+}
+
+/* Kangaroo */
+.card[href*="6055702"] {
+  background: url('https://images.pexels.com/photos/6055702/pexels-photo-6055702.jpeg') center/cover;
+}
+
+/* Vượn cáo */
+.card[href*="ANd9GcTkKouktxvt89zKnq_bdBlCjqaqBH28VsCyLQ"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKouktxvt89zKnq_bdBlCjqaqBH28VsCyLQ&s') center/cover;
+}
+
+/* Báo hoa mai */
+.card[href*="29707600"] {
+  background: url('https://images.pexels.com/photos/29707600/pexels-photo-29707600.jpeg') center/cover;
+}
+
+/* Đười ươi */
+.card[href*="1123771"] {
+  background: url('https://images.pexels.com/photos/1123771/pexels-photo-1123771.jpeg') center/cover;
+}
+
+/* Rái cá */
+.card[href*="28749526"] {
+  background: url('https://images.pexels.com/photos/28749526/pexels-photo-28749526.jpeg') center/cover;
+}
+
+/* Bò đực */
+.card[href*="5712834"] {
+  background: url('https://images.pexels.com/photos/5712834/pexels-photo-5712834.jpeg') center/cover;
+}
+
+/* Báo đen */
+.card[href*="31565247"] {
+  background: url('https://images.pexels.com/photos/31565247/pexels-photo-31565247.jpeg') center/cover;
+}
+
+/* Cừu */
+.card[href*="ANd9GcSObrpi6JlX-Q5U1fDmooqP3XLlS5nunXu_Rg"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObrpi6JlX-Q5U1fDmooqP3XLlS5nunXu_Rg&s') center/cover;
+}
+
+/* Thỏ */
+.card[href*="31574153"] {
+  background: url('https://images.pexels.com/photos/31574153/pexels-photo-31574153.jpeg') center/cover;
+}
+
+/* Gấu mèo */
+.card[href*="54602"] {
+  background: url('https://images.pexels.com/photos/54602/raccoon-bear-zoo-saeugentier-54602.jpeg') center/cover;
+}
+
+/* Tuần lộc */
+.card[href*="735987"] {
+  background: url('https://images.pexels.com/photos/735987/pexels-photo-735987.jpeg') center/cover;
+}
+/* === ĐỘNG VẬT MỚI === */
+/* Linh miêu (đã có - kiểm tra lại) */
+.card[href*="187857"] {
+  background: url('https://images.pexels.com/photos/187857/pexels-photo-187857.jpeg') center/cover;
+}
+
+/* Khỉ */
+.card[href*="ANd9GcQlpTJEv5-MPj4Fw4Q6GwP40XL1LkVTKbApOQ"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpTJEv5-MPj4Fw4Q6GwP40XL1LkVTKbApOQ&s') center/cover;
+}
+
+/* Nai sừng tấm */
+.card[href*="ANd9GcQDG_Ftfe40WQB57FcGgphrhzwjxPgND2kRbg"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDG_Ftfe40WQB57FcGgphrhzwjxPgND2kRbg&s') center/cover;
+}
+
+/* Kỳ nhông (đã có - cập nhật) */
+.card[href*="31465822"] {
+  background: url('https://images.pexels.com/photos/31465822/pexels-photo-31465822.jpeg') center/cover;
+}
+
+/* Thằn lằn (đã có - kiểm tra lại) */
+.card[href*="31465822"] { /* Dùng chung ảnh với kỳ nhông */
+  background: url('https://images.pexels.com/photos/31465822/pexels-photo-31465822.jpeg') center/cover;
+}
+
+/* Ếch (đã có - kiểm tra lại) */
+.card[href*="31342945"] {
+  background: url('https://images.pexels.com/photos/31342945/pexels-photo-31342945.jpeg') center/cover;
+}
+
+/* Clownfish */
+.card[href*="1535591273668-578e31182c4f"] {
+  background: url('https://images.unsplash.com/photo-1535591273668-578e31182c4f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover;
+}
+
+/* Sứa (đã có - cập nhật) */
+.card[href*="31584478"] {
+  background: url('https://images.pexels.com/photos/31584478/pexels-photo-31584478.jpeg') center/cover;
+}
+
+/* Tôm hùm */
+.card[href*="ANd9GcQOJmY2d_YU19NLiQUGOvhbuTBVPD7qNrivyA"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOJmY2d_YU19NLiQUGOvhbuTBVPD7qNrivyA&s') center/cover;
+}
+
+/* Bạch tuộc (đã có - kiểm tra lại) */
+.card[href*="ANd9GcRn4L5in_qucHEwtpZ2Z-YR5Lh5Kl0rbaBlXg"] {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn4L5in_qucHEwtpZ2Z-YR5Lh5Kl0rbaBlXg&s') center/cover;
+}
+
+/* Ốc sên (đã có - cập nhật) */
+.card[href*="31485733"] {
+  background: url('https://images.pexels.com/photos/31485733/pexels-photo-31485733.jpeg') center/cover;
+}
 /* FOOTER */
 footer {
   background-color: var(--dark);
