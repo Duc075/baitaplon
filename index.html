@@ -5,6 +5,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>Animal Explorer</title>
   <link href="animal4.css" rel="stylesheet"/>
+  <script src="data.js"></script>
 </head>
 <body>
 
@@ -40,20 +41,8 @@
 
 <section class="category" id="all">
   <h2>All Animals A-Z</h2>
-  <div class="card-grid">
-    <a class="card" href="animal.html?name=chim-se-bang">Chim sẻ băng</a>
-    <a class="card" href="animal.html?name=co-trang-lon">Cò trắng lớn</a>
-    <a class="card" href="animal.html?name=chim-canh-cut">Chim cánh cụt</a>
-    <a class="card" href="animal.html?name=huou-cao-co">Hươu cao cổ</a>
-    <a class="card" href="animal.html?name=cay-meerkat">Cầy meerkat</a>
-    <a class="card" href="animal.html?name=gau-den">Gấu đen</a>
-    <a class="card" href="animal.html?name=bao-tuyet">Báo tuyết</a>
-    <a class="card" href="animal.html?name=than-lan">Thằn lằn</a>
-    <a class="card" href="animal.html?name=linh-mieu-iberia">Linh miêu Iberia</a>
-    <a class="card" href="animal.html?name=duoi-uoi">Đười ươi</a>
-    <a class="card" href="animal.html?name=tac-ke-hoa">Tắc kè hoa</a>
-    <a class="card" href="animal.html?name=rua-luyt">Rùa luýt</a>
-    <!-- Add more animals as needed -->
+  <div class="card-grid" id="all-animals-container">
+    <!-- Động vật sẽ được thêm bằng JS -->
   </div>
 </section>
 
@@ -71,6 +60,39 @@
   </div>
   <p style="text-align: center; margin-top: 1rem;">© 2025 Animal Explorer. All rights reserved.</p>
 </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById("all-animals-container");
+
+    Object.values(animals).forEach(animal => {
+      const card = document.createElement("a");
+      card.className = "card";
+      card.href = `animal.html?name=${animal.id}`;
+      card.style.display = 'flex';
+      card.style.flexDirection = 'column';
+      card.style.alignItems = 'center';
+
+      if (animal.image) {
+        const img = document.createElement("img");
+        img.src = animal.image;
+        img.alt = animal.name;
+        img.style.width = "100%";
+        img.style.maxWidth = "200px";
+        img.style.borderRadius = "8px";
+        img.style.marginBottom = "8px";
+        card.appendChild(img);
+      }
+
+      const name = document.createElement("span");
+      name.textContent = animal.name;
+      name.style.fontWeight = "bold";
+      card.appendChild(name);
+
+      container.appendChild(card);
+    });
+  });
+</script>
 
 </body>
 </html>
