@@ -1,98 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+  <!DOCTYPE html>
+
+  <html lang="en">
+  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>Animal Explorer</title>
-  <link href="animal4.css" rel="stylesheet"/>
-  <script src="data.js"></script>
-</head>
-<body>
-
-<header>
+  <link href="css/animal4.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <header>
   <div class="logo">WILDLIFE</div>
   <nav>
-    <a class="nav-link" href="index.html">Home</a>
-    <div class="dropdown">
-      <button class="dropbtn">Categories</button>
-      <div class="dropdown-content">
-        <a href="#birds">Birds</a>
-        <a href="#mammals">Mammals</a>
-        <a href="#reptiles">Reptiles</a>
-        <a href="#fish">Fish</a>
-        <a href="#amphibians">Amphibians</a>
-        <a href="#invertebrates">Invertebrates</a>
-      </div>
-    </div>
-    <a class="nav-link" href="gallery.html">Gallery</a>
+  <a class="nav-link" href="index.html">Home</a>
+  <div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+  <a href="#birds">Birds</a>
+  <a href="#mammals">Mammals</a>
+  <a href="#reptiles">Reptiles</a>
+  <a href="#fish">Fish</a>
+  <a href="#amphibians">Amphibians</a>
+  <a href="#invertebrates">Invertebrates</a>
+  </div>
+  </div>
+  <a class="nav-link" href="gallery.html">Gallery</a>
+  <div class="dropdown">
+  <button class="dropbtn">DEV</button>
+  <div class="dropdown-content">
+  <a href="about.html">About Us</a>
+  <a href="team.html">Our Team</a>
+  <a href="contact.html">Contact</a>
+  </div>
+  </div>
   </nav>
 
   <form action="searchAnimals.html" class="search-bar" method="GET">
     <input name="name" placeholder="Search for animals..." />
     <button type="submit">Search</button>
   </form>
-</header>
 
-<section class="hero">
+
+  </header>
+
+
+
+
+  <section class="hero">
   <h1>Discover, Appreciate, &amp; Understand the Animal World!</h1>
   <p>Explore the wonders of birds, mammals, reptiles, and fish!</p>
   <a class="cta-button" href="#all">See All Animals A-Z!</a>
-</section>
+  </section>
+  <section class="category" id="birds">
+      <h2>Birds</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=chim-se-bang">Chim sẻ băng</a>
+        <a class="card" href="animal.html?name=co-trang-lon">Cò trắng lớn</a>
+        <a class="card" href="animal.html?name=chim-canh-cut">Chim cánh cụt</a>
+        <a class="card" href="animal.html?name=chim-nhan-california">Chim nhàn California</a>
+        <a class="card" href="animal.html?name=chim-kiwi">Chim Kiwi</a>
+        <a class="card" href="animal.html?name=chim-cat">Chim Cắt</a>
+        <a class="card" href="animal.html?name=chim-ung">Chim ưng</a>
+        <a class="card" href="animal.html?name=than-ung-california">Thần Ưng California</a>
+        <a class="card" href="animal.html?name=dai-bang-vang">Đại Bàng Vàng</a>
+        <a class="card" href="animal.html?name=cu">Cú</a>
+      </div>
+    </section>
+    
+    <section class="category" id="mammals">
+      <h2>Mammals</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=su-tu ">Sư tử</a>
+        <a class="card" href="animal.html?name=huou-cao-co">Hươu cao cổ</a>
+        <a class="card" href="animal.html?name=cay-meerkat">Cầy meerkat</a>
+        <a class="card" href="animal.html?name=gau-den">Gấu đen</a>
+        <a class="card" href="animal.html?name=bao-tuyet">Báo tuyết</a>
+        <a class="card" href="animal.html?name=linh-mieu-iberia">Linh miêu Iberia</a>
+        <a class="card" href="animal.html?name=duoi-uoi">Đười ươi</a>
+        <a class="card" href="animal.html?name=ngua-van">Ngựa vằn</a>
+        <a class="card" href="animal.html?name=linh-cau-rung">Linh cẩu </a>
+        <a class="card" href="animal.html?name=doi">Dơi</a>
+        <a class="card" href="animal.html?name=bao-su-tu">Báo sư tử (Puma)</a>
+        <a class="card" href="animal.html?name=chuot-tui">Chuột túi</a>
+        <a class="card" href="animal.html?name=cuu-sung-lon">Cừu sừng lớn</a>
+        <a class="card" href="animal.html?name=gau-bac-cuc">Gấu Bắc Cực</a>
+        <a class="card" href="animal.html?name=soc">Sóc</a>
+        <a class="card" href="animal.html?name=huou">Hươu</a>
+        <a class="card" href="animal.html?name=cho-golden-retriever">Chó Golden Retriever</a>
+        <a class="card" href="animal.html?name=te-giac">Tê giác</a>
+        <a class="card" href="animal.html?name=gau-truc">Gấu trúc</a>
+        <a class="card" href="animal.html?name=linh-duong-gazelle">Linh dương Gazelle</a>
+        <a class="card" href="animal.html?name=gau-nau-himalaya">Gấu nâu Himalaya</a>
+        <a class="card" href="animal.html?name=luoi">Lười</a>
+        <a class="card" href="animal.html?name=de-nui">Dê núi</a>
+        <a class="card" href="animal.html?name=khi">Khỉ</a>
+        <a class="card" href="animal.html?name=gau-xam-grizzly">Gấu xám Grizzly</a>
+        <a class="card" href="animal.html?name=bao-florida">Báo Florida</a>
+        <a class="card" href="animal.html?name=chihuahua">Chihuahua</a>
+        <a class="card" href="animal.html?name=voi">Voi</a>
+        <a class="card" href="animal.html?name=ngua">Ngựa</a>
+        <a class="card" href="animal.html?name=gorilla">Gorilla</a>
+        <a class="card" href="animal.html?name=fossa">Fossa</a>
+        <a class="card" href="animal.html?name=ha-ma">Hà Mã</a>
+      </div>
+    </section>
+    
+    <section class="category" id="reptiles">
+      <h2>Reptiles</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=than-lan-shingleback">Thằn lằn Shingleback</a>
+        <a class="card" href="animal.html?name=than-lan">Thằn lằn</a>
+        <a class="card" href="animal.html?name=rua-luyt">Rùa luýt (Rùa da)</a>
+        <a class="card" href="animal.html?name=tac-ke-hoa">Tắc kè hoa</a>
+        <a class="card" href="animal.html?name=tran-cau-vong">Trăn cầu vồng</a>
+        <a class="card" href="animal.html?name=tran-tham">Trăn Thảm</a>
+        <a class="card" href="animal.html?name=ran-mamba-den">Rắn Mamba Đen</a>
+        <a class="card" href="animal.html?name=ran-bien">Rắn Biển</a>
+        <a class="card" href="animal.html?name=ran-ho-mang">Rắn Hổ Mang</a>
+        <a class="card" href="animal.html?name=rua-ve">Rùa vẽ</a>
+        <a class="card" href="animal.html?name=titanoboa">Titanoboa</a>
+      </div>
+    </section>
+    
+    <section class="category" id="amphibians">
+      <h2>Amphibians</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=ech-phi-tieu-doc">Ếch phi tiêu độc</a>
+        <a class="card" href="animal.html?name=ech-cay">Ếch cây</a>
+        <a class="card" href="animal.html?name=ech-vang">Ếch vàng</a>
+        <a class="card" href="animal.html?name=ky-nhong-bien">Kỳ nhông biển</a>
+      </div>
+    </section>
+    
+    <section class="category" id="fish">
+      <h2>Fish</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=ca">Cá</a>
+        <a class="card" href="animal.html?name=ca-voi-lung-gu">Cá voi lưng gù</a>
+        <a class="card" href="animal.html?name=ca-thoi-loi">Cá thòi lòi</a>
+        <a class="card" href="animal.html?name=ca-map-greenland">Cá Mập Greenland</a>
+        <a class="card" href="animal.html?name=ca-mai-cheo">Cá Mái Chèo</a>
+        <a class="card" href="animal.html?name=ca-dau-vien">Cá Đầu Viền</a>
+        <a class="card" href="animal.html?name=ca-nhong">Cá Nhồng</a>
+        <a class="card" href="animal.html?name=ca-voi-beluga">Cá Voi Beluga</a>
+        <a class="card" href="animal.html?name=ca-map-trang-lon">Cá Mập Trắng Lớn</a>
+        <a class="card" href="animal.html?name=ca-duoi-khong-lo">Cá đuối khổng lồ</a>
+      </div>
+    </section>
+    
+    <section class="category" id="invertebrates">
+      <h2>Invertebrates</h2>
+      <div class="card-grid">
+        <a class="card" href="animal.html?name=ong">Ong</a>
+        <a class="card" href="animal.html?name=kien">Kiến</a>
+        <a class="card" href="animal.html?name=kien-quan-doi">Kiến Quân Đội</a>
+        <a class="card" href="animal.html?name=hai-tieu">Hải Tiêu</a>
+        <a class="card" href="animal.html?name=thuy-tuc">Thủy Tức</a>
+        <a class="card" href="animal.html?name=buom">Bướm</a>
+        <a class="card" href="animal.html?name=muc-nang">Mực Nang</a>
+        <a class="card" href="animal.html?name=oc-sen">Ốc sên</a>
+        <a class="card" href="animal.html?name=ve-sau">Ve Sầu</a>
+        <a class="card" href="animal.html?name=hai-quy">Hải Quỳ</a>
+        <a class="card" href="animal.html?name=ran-san-ho">Rạn San Hô</a>
+        <a class="card" href="animal.html?name=giun-bien">Giun Biển</a>
+        <a class="card" href="animal.html?name=dong-vat-chan-dot">Động Vật Chân Đốt</a>
+      </div>
+    </section>
+    
+  <footer>
+  <p>© 2025 Animal Explorer. All rights reserved.</p>
+  </footer>
 
-<section class="category" id="all">
-  <h2>All Animals A-Z</h2>
-  <div class="card-grid" id="all-animals-container">
-    <!-- Động vật sẽ được thêm bằng JS -->
-  </div>
-</section>
+  <!-- Sửa trong animal.html -->
 
-<footer>
-  <div class="footer-content">
-    <h3>Contact Us</h3>
-    <p>Email: info@animalexplorer.com</p>
-    <p>Phone: +84 123 456 789</p>
-    <p>Address: 123 Animal Street, Nature City</p>
-    <div class="footer-links">
-      <a href="about.html">About Us</a> |
-      <a href="team.html">Our Team</a> |
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
-  <p style="text-align: center; margin-top: 1rem;">© 2025 Animal Explorer. All rights reserved.</p>
-</footer>
+  <script src="js/data.js"></script>
+  <script src="js/video_image.js"></script>
+  <script src="js/main.js"></script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const container = document.getElementById("all-animals-container");
-
-    Object.values(animals).forEach(animal => {
-      const card = document.createElement("a");
-      card.className = "card";
-      card.href = `animal.html?name=${animal.id}`;
-      card.style.display = 'flex';
-      card.style.flexDirection = 'column';
-      card.style.alignItems = 'center';
-
-      if (animal.image) {
-        const img = document.createElement("img");
-        img.src = animal.image;
-        img.alt = animal.name;
-        img.style.width = "100%";
-        img.style.maxWidth = "200px";
-        img.style.borderRadius = "8px";
-        img.style.marginBottom = "8px";
-        card.appendChild(img);
-      }
-
-      const name = document.createElement("span");
-      name.textContent = animal.name;
-      name.style.fontWeight = "bold";
-      card.appendChild(name);
-
-      container.appendChild(card);
-    });
-  });
-</script>
-
-</body>
-</html>
+  </body>
+  </html>
