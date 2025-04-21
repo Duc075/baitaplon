@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Animal Explorer - Search Results</title>
+  <link href="css/animal4.css" rel="stylesheet"/>
+</head>
+<body>
+
+<header>
+  <div class="logo">WILDLIFE</div>
+  <nav>
+    <a class="nav-link" href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Categories</button>
+      <div class="dropdown-content">
+        <a href="#birds">Birds</a>
+        <a href="#mammals">Mammals</a>
+        <a href="#reptiles">Reptiles</a>
+        <a href="#fish">Fish</a>
+        <a href="#amphibians">Amphibians</a>
+        <a href="#Invertebrates">Invertebrates</a>
+      </div>
+    </div>
+    <a class="nav-link" href="gallery.html">Gallery</a>
+    <div class="dropdown">
+      <button class="dropbtn">DEV</button>
+      <div class="dropdown-content">
+        <a href="about.html">About Us</a>
+        <a href="team.html">Our Team</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <form action="searchAnimals.html" class="search-bar" method="GET">
+    <input name="name" placeholder="Search for animals..." />
+    <button type="submit">Search</button>
+  </form>
+  
+</header>
+
+<section class="hero">
+  <h1>Search Results</h1>
+  <p>Explore the animals you're looking for!</p>
+</section>
+
+<section class="search-results">
+  <h2>Results for: <span id="search-term"></span></h2>
+  <div class="card-grid" id="result-container">
+    <!-- Các kết quả tìm kiếm sẽ được hiển thị ở đây -->
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Animal Explorer. All rights reserved.</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script>
+  // Lấy tham số tìm kiếm từ URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchTerm = urlParams.get('name');
+
+  // Hiển thị từ khóa tìm kiếm
+  document.getElementById('search-term').textContent = searchTerm;
+
+  // Lọc danh sách động vật từ dữ liệu trong data.js
+  const results = Object.values(animals).filter(animal => animal.name.toLowerCase().includes(searchTerm.toLowerCase()));
+
+  // Hiển thị các kết quả tìm kiếm
+  const resultContainer = document.getElementById('result-container');
+  if (results.length > 0) {
+    results.forEach(animal => {
+      const animalLink = document.createElement('a');
+      animalLink.classList.add('card');
+      // Tạo liên kết động với id động vật
+      animalLink.href = `animal.html?name=${animal.id}`;
+      animalLink.textContent = animal.name;
+
+      resultContainer.appendChild(animalLink);
+    });
+  } else {
+    resultContainer.innerHTML = '<p>No results found for your search.</p>';
+  }
+</script>
+
+</body>
+</html>
